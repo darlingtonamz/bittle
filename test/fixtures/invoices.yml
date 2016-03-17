@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  token: MyString
+  business_id: 
+  item: MyString
+  cost: 9.99
+  interest: 1
+  duration: 1
+  due_time: 1
+  status: MyString
+
+two:
+  token: MyString
+  business_id: 
+  item: MyString
+  cost: 9.99
+  interest: 1
+  duration: 1
+  due_time: 1
+  status: MyString
