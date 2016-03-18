@@ -1,29 +1,74 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @user.name %>
-</p>
+<!-- <div class="row">
+<ol class="breadcrumb">
+<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+<li class="active">Icons</li>
+</ol>
+</div>--><!--/.row-->
+<div class="row">
+  <div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-1">
+    <div class="panel panel-blue panel-widget ">
+      <div class="row no-padding">
+        <div class="col-sm-3 col-lg-5 widget-left">
+          <svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
+        </div>
+        <div class="col-sm-9 col-lg-7 widget-right">
+          <div class="large">120</div>
+          <div class="text-muted">Items</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6 col-lg-3">
+    <div class="panel panel-orange panel-widget">
+      <div class="row no-padding">
+        <div class="col-sm-3 col-lg-5 widget-left">
+          <svg class="glyph stroked empty-message"><use xlink:href="#stroked-empty-message"></use></svg>
+        </div>
+        <div class="col-sm-9 col-lg-7 widget-right">
+          <div class="large">52</div>
+          <div class="text-muted">Due payments</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6 col-lg-3">
+    <div class="panel panel-red panel-widget">
+      <div class="row no-padding">
+        <div class="col-sm-3 col-lg-5 widget-left">
+          <svg class="glyph stroked app-window-with-content"><use xlink:href="#stroked-app-window-with-content"></use></svg>
+        </div>
+        <div class="col-sm-9 col-lg-7 widget-right">
+          <div class="large">25.2k</div>
+          <div class="text-muted">Full Payments</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!--/.row-->
 
-<p>
-  <strong>Phone:</strong>
-  <%= @user.phone %>
-</p>
-
-<p>
-  <strong>Address:</strong>
-  <%= @user.address %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
-
-<p>
-  <strong>Role:</strong>
-  <%= @user.role %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<div class="row">
+  <div class="col-md-6 col-lg-7 col-lg-offset-2 ">
+    <div class="panel panel-default">
+      <div class="panel-heading">Basic Table</div>
+      <div class="panel-body">
+        <table data-toggle="table" data-url="tables/data2.json" >
+          <thead>
+            <tr>
+              <th data-field="id" data-align="right">Item ID</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>d</td>
+              <td>d</td>
+              <td>d</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
